@@ -36,7 +36,7 @@ const HeroSection = () => {
 
    <div className='grid grid-cols-1 sm:grid-cols-12'>
 
-    <div className='col-span-7 text-center place-self-center sm:text-left'>
+    <div className='col-span-8 text-center place-self-center sm:text-left justify-self-start'>
         
 
             
@@ -72,14 +72,14 @@ const HeroSection = () => {
 
 <div>
     <button className='w-full px-6 py-3 mr-4 text-white rounded-full hover:bg-slate-200 sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500'>Hire Me</button>
-    <button className='w-full px-1 py-1 mt-3 mr-4 text-white bg-transparent rounded-full sm:w-fit hover:bg-slate-800  bg-gradient-to-br from-blue-500 to-pink-600'> 
+    <button className='w-full px-1 py-1 mt-3 mr-4 text-white bg-transparent rounded-full sm:w-fit hover:bg-slate-800 bg-gradient-to-br from-blue-500 to-pink-600'> 
     <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
     </button>
 </div>
    
    </div>
 
-   <div  className='col-span-5 mt-4 mb place-self-center lg:mt-0'>
+   <div  className='col-span-4 mt-4 mb place-self-center lg:mt-0'>
    <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
     <Image
      src='/images/hero-image.png'
