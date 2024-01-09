@@ -3,6 +3,11 @@ import React, {useTransition, useState} from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton'
 
+import ProjectCard from './ProjectCard'
+
+
+
+
 
 const TAB_DATA =[
     {
